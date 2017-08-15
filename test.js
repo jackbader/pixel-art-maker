@@ -6,7 +6,7 @@ const paintPixel = function(pixel) {
   pixel.classList.add(brushClass);
 }
 
-const drawCanvas = function() {
+const drawPixels = function() {
   const canvas = document.getElementById('test')
 
   for (var i = 0; i < 2250; i++) {
@@ -118,5 +118,5 @@ const drawPalette = function() {
   });
 }
 
-drawCanvas()
+drawPixels()
 drawPalette()
